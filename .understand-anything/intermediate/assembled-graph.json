@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": "Understand-Anything eklentisi yapılandırma dosyası; autoUpdate ve outputLanguage (tr) ayarlarını tanımlar.",
+      "tags": [
+        "configuration",
+        "understand-anything",
+        "build-system"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "PROCUX API şema deposunun tanıtım belgesi; Demand Pool, RFQ ve AI Öneri veri modellerini açıklar ve kullanım rehberi sunar.",
+      "tags": [
+        "documentation",
+        "entry-point",
+        "api-schema",
+        "overview"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:README.md",
+      "target": "config:.understand-anything/config.json",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

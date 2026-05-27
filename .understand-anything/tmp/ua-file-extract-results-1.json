@@ -1,0 +1,99 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 2,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "autoUpdate",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "outputLanguage",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 89,
+      "nonEmptyLines": 64,
+      "sections": [
+        {
+          "heading": "📐 PROCUX API Schemas",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "📦 What's Inside",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "🔄 Core Data Models",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "Demand Pool",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "RFQ (Request for Quotation)",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "AI Recommendation",
+          "level": 3,
+          "line": 47
+        },
+        {
+          "heading": "🛠️ Usage",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "🤝 Contributing",
+          "level": 2,
+          "line": 74
+        },
+        {
+          "heading": "📬 Contact",
+          "level": 2,
+          "line": 80
+        },
+        {
+          "heading": "📄 License",
+          "level": 2,
+          "line": 87
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    }
+  ]
+}

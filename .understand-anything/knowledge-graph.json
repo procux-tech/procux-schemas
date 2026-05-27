@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "procux-schemas",
+    "languages": [
+      "json",
+      "markdown"
+    ],
+    "frameworks": [],
+    "description": "PROCUX ekosistemi için paylaşılan API şema tanımları; Demand Pool, RFQ ve AI Öneri veri modellerini içerir.",
+    "analyzedAt": "2026-05-27T00:46:14.102Z",
+    "gitCommitHash": "0426b210c2d7f9b8bd89df33e53506e3c3396d11"
+  },
+  "nodes": [
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": "Understand-Anything eklentisi yapılandırma dosyası; autoUpdate etkin, çıktı dili Türkçe.",
+      "tags": [
+        "configuration",
+        "understand-anything",
+        "build-system"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "PROCUX API şema deposunun tanıtım belgesi; Demand Pool, RFQ ve AI Öneri veri modellerini açıklar.",
+      "tags": [
+        "documentation",
+        "entry-point",
+        "api-schema",
+        "overview"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:README.md",
+      "target": "config:.understand-anything/config.json",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:documentation",
+      "name": "Dokümantasyon",
+      "description": "Proje belgelerini ve konfigürasyonları içerir.",
+      "nodeIds": [
+        "document:README.md",
+        "config:.understand-anything/config.json"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Proje Genel Bakış",
+      "description": "PROCUX API şema deposunu anlamak için README.md ile başlayın; Demand Pool, RFQ ve AI Öneri modellerini keşfedin.",
+      "nodeIds": [
+        "document:README.md"
+      ]
+    }
+  ]
+}

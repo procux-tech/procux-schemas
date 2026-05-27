@@ -1,0 +1,21 @@
+{
+  "projectRoot": "C:/Users/MONSTER/procux-workspace/procux-schemas",
+  "batchFiles": [
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "sizeLines": 89,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    ".understand-anything/config.json": [],
+    "README.md": []
+  }
+}

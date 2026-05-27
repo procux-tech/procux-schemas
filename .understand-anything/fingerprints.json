@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "gitCommitHash": "0426b210c2d7f9b8bd89df33e53506e3c3396d11",
+  "generatedAt": "2026-05-27T00:50:16.687Z",
+  "files": {
+    ".understand-anything/config.json": {
+      "filePath": ".understand-anything/config.json",
+      "contentHash": "c0f077c41455a4529efe3ef4dc49f5b93833f0327b8a93f537d35daba7b30ac5",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 4,
+      "hasStructuralAnalysis": true
+    },
+    "README.md": {
+      "filePath": "README.md",
+      "contentHash": "30e4f9a4641ef92c04324cb38972ffd8346d70240764bce884d656a16cdde55d",
+      "functions": [],
+      "classes": [],
+      "imports": [],
+      "exports": [],
+      "totalLines": 90,
+      "hasStructuralAnalysis": true
+    }
+  }
+}
