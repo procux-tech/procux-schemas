@@ -1,0 +1,11 @@
+# --- üretilmiş artifaktlar (procux şablonundan, 2026-08-01) ---
+# Playwright CLI cache and Understand-Anything knowledge-graph output. Both are
+# generated on demand and are large; .understand-anything in particular carries
+# stale data and must not enter the repo.
+.playwright-cli/
+.understand-anything/
+__pycache__/
+.pytest_cache/
+.coverage
+coverage/
+.next/
